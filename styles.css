@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f0f0;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#head {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#frame {
+    background: #fff;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+#screen {
+    margin-bottom: 20px;
+}
+
+#dial {
+    width: 90%;
+    height: 40px;
+    font-size: 20px;
+    text-align: right;
+    padding: 5px 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background: #eee;
+}
+
+button {
+    width: 25px;
+    height: 25px;
+    margin: 5px;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    background: #4CAF50;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#extra-dial button {
+    width: 70px;
+}
